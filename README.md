@@ -13,7 +13,7 @@ mvn compile
 mvn exec:java -Dexec.mainClass=app.Main
 ```
 
-Personally, I ran the app inside the Eclipse IDE Version: 2021-12 (4.22.0). But any IDE that supports Java/Maven projects should work as well. 
+Personally, I ran the app inside the Eclipse IDE Version: 2021-12 (4.22.0). But any IDE that supports Java/Maven projects should work as well. If you plan to do this, the main function is located inside of MinimumBoundingRectangle/src/main/java/app/Main.java, so ensure your run configuration is set to execute that file.
 
 ## To Run the Tests
 cd into the MinimumBoundingRectangle folder. Run the following commands:
